@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.button.setOnClickListener{
            val name = binding.txtName.text.toString()
-            binding.lblText.text = "Hello " + name
+            binding.lblText.text = "Hello  " + name
         }
     }
 }
